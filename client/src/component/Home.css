@@ -1,0 +1,100 @@
+.label-home {
+  display: block;
+  margin: 0.1em;
+  padding: 0.5em;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+
+  color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-home {
+  margin-top: 1em;
+  min-width: 300px;
+  padding: 1em;
+  background-color: transparent;
+  border: 1px solid #151515;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #151515;
+}
+.election-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-home-title {
+  align-self: flex-start;
+}
+
+.label-home button {
+  padding: 4px;
+
+  align-self: flex-end;
+  width: 100px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Montserrat";
+
+  border: 1px solid #000000;
+
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.input-home,
+.label-home {
+  margin-bottom: 8px;
+}
+
+.titles {
+  align-self: flex-start;
+  list-style-type: disc;
+}
+
+.container-item-btn-election {
+  transition: ease all 0.5s;
+  border-radius: 8px;
+  width: 977px;
+  padding: 17px;
+  margin: 17px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: auto;
+}
+
+.btn-save {
+  width: 50%;
+  padding: 1em;
+  float: inline-end;
+  margin: 1em;
+}
+
+.btn-election-save {
+  padding: 1em;
+  float: inline-start;
+  margin: 1em;
+  box-sizing: border-box;
+  position: inherit;
+  width: 250px;
+  align-items: center;
+
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 8px;
+
+  background-color: #151515;
+  color: #ffffff;
+}

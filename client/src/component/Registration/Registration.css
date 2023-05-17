@@ -1,0 +1,83 @@
+.div-li {
+  display: inline-grid;
+}
+.input-r {
+  margin: 0.5em 0em 0em 0em;
+  padding: 1em;
+  display: block;
+  width: 330px;
+  background-color: transparent;
+
+  border: 1px solid #151515;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #151515;
+}
+.label-r {
+  display: block;
+  margin: 0.1em;
+  padding: 0.5em;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 44px;
+  color: #151515;
+}
+.btn-add {
+  width: 50%;
+  padding: 1em;
+  float: inline-end;
+  margin: 1em;
+}
+
+.note {
+  width: 90%;
+  padding: 11px;
+  padding-left: 1px;
+  text-align: justify;
+  max-height: 111px;
+  line-height: 1.5em;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #151515;
+}
+
+th {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 56px;
+
+  color: #fff;
+  font-weight: normal;
+}
+td {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 56px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.container-item-register {
+  transition: ease all 0.5s;
+  width: 977px;
+  padding: 17px;
+  margin: 17px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: auto;
+
+  border: 1px solid #151515;
+  border-radius: 8px;
+  color: #151515;
+}
